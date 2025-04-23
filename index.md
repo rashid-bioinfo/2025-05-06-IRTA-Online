@@ -406,6 +406,28 @@ The lesson taught in this workshop is being piloted and a precise schedule is ye
 
 <hr/>
 
+<h2 id="lectures">Lecture Materials</h2>
+
+<p>Below is the list of lectures for the IRTA Software Carpentry Python workshop:</p>
+
+<ul>
+  <li><a href="{{ site.baseurl }}/episodes/1_intro_and_programming/">Lecture 1: Introduction and Programming</a></li>
+  <li><a href="{{ site.baseurl }}/episodes/2_Modules_Comments_pip_FULL/">Lecture 2: Modules, Comments, and pip</a></li>
+  <li><a href="{{ site.baseurl }}/episodes/3_Variables_and_Datatypes/">Lecture 3: Variables and Data Types</a></li>
+  <li><a href="{{ site.baseurl }}/episodes/Chapter_3_Strings/">Chapter 3: Strings</a></li>
+  <li><a href="{{ site.baseurl }}/episodes/Chapter_4_Lists_and_Tuples/">Chapter 4: Lists and Tuples</a></li>
+  <li><a href="{{ site.baseurl }}/episodes/Chapter_5_Dictionaries_and_Sets/">Chapter 5: Dictionaries and Sets</a></li>
+  <li><a href="{{ site.baseurl }}/episodes/Chapter_6_Conditional_Expressions/">Chapter 6: Conditional Expressions</a></li>
+  <li><a href="{{ site.baseurl }}/episodes/Chapter_7_Loops_in_Python/">Chapter 7: Loops in Python</a></li>
+  <li><a href="{{ site.baseurl }}/episodes/Chapter_10_Object_Oriented_Programming/">Chapter 10: Object-Oriented Programming</a></li>
+  <li><a href="{{ site.baseurl }}/episodes/Chapter_11_Inheritance/">Chapter 11: Inheritance</a></li>
+  <li><a href="{{ site.baseurl }}/episodes/Chapter_12_Exception_Handling/">Chapter 12: Exception Handling</a></li>
+  <li><a href="{{ site.baseurl }}/episodes/Chapter_13_Virtual_Environment/">Chapter 13: Virtual Environment</a></li>
+</ul>
+
+<hr/>
+
+
 
 {% comment %}
 SETUP
