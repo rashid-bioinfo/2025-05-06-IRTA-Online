@@ -383,11 +383,9 @@ of code below the Schedule `<h2>` header below with
 
 <h2 id="schedule">Schedule</h2>
 
-
-
 {% if site.carpentry == "swc" %}
 {% include swc/schedule.html %}
-{% include syllabus.html %}
+{% include swc/syllabus.html %}
 
 
 
