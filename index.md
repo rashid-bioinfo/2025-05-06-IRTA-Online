@@ -390,6 +390,8 @@ of code below the Schedule `<h2>` header below with
 {% include syllabus.html %}
 
 
+
+
 {% elsif site.carpentry == "dc" %}
 {% include dc/schedule.html %}
 {% elsif site.carpentry == "lc" %}
