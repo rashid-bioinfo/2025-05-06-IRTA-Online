@@ -411,7 +411,7 @@ The lesson taught in this workshop is being piloted and a precise schedule is ye
 <p>Below is the list of lectures for the IRTA Software Carpentry Python workshop:</p>
 
 <ul>
-  <li><a href="{{ site.baseurl }}/episodes/1_intro_and_programming/">Lecture 1: Introduction and Programming</a></li>
+  <li><a href="{{ site.baseurl }}/_episodes/1_intro_and_programming/">Lecture 1: Introduction and Programming</a></li>
   <li><a href="{{ site.baseurl }}/episodes/2_Modules_Comments_pip_FULL/">Lecture 2: Modules, Comments, and pip</a></li>
   <li><a href="{{ site.baseurl }}/episodes/3_Variables_and_Datatypes/">Lecture 3: Variables and Data Types</a></li>
   <li><a href="{{ site.baseurl }}/episodes/Chapter_3_Strings/">Chapter 3: Strings</a></li>
