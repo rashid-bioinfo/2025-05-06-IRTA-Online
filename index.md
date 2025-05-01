@@ -310,13 +310,13 @@ Everyone who participates in Carpentries activities is required to conform to th
 </p>
 <hr/>
 
-
+{% comment %}
 <h2>Workshop Notes</h2>
 <p><a href="{{ site.baseurl }}/python/">Python Notes</a></p>
 
 
 
-{% comment %}
+
 Collaborative Notes
 
 If you want to use an Etherpad, go to
