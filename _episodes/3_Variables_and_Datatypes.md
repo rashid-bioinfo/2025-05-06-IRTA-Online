@@ -3,7 +3,7 @@
 
 Variables are used to store information in a program, and data types define what kind of data a variable holds.
 
----
+<!--
 
 ## Variables in Python
 
@@ -31,7 +31,7 @@ x = "Now I am a string"
 - They are case-sensitive (`myVar` and `myvar` are different)
 - Avoid using Python keywords (like `if`, `for`, `class`)
 
----
+-->
 
 ## Datatypes in Python
 
@@ -91,7 +91,7 @@ x = 42
 print(type(x))  # Output: <class 'int'>
 ```
 
----
+<!--
 
 ## Summary
 
@@ -100,7 +100,7 @@ print(type(x))  # Output: <class 'int'>
 - Data types include numbers, strings, lists, tuples, dictionaries, sets, and more.
 - Use `type()` to check a variable’s data type.
 
----
+-->
 
 ## 🧪 Practice Questions
 

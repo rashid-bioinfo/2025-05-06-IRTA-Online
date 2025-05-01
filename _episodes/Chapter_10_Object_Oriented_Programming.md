@@ -3,7 +3,7 @@
 
 Object Oriented Programming (OOP) is a programming paradigm based on the concept of **objects**, which contain **data** and **methods**. Python supports OOP features such as classes, objects, inheritance, encapsulation, and polymorphism.
 
----
+<!--
 
 ## Classes and Objects
 
@@ -26,20 +26,20 @@ p1 = Person("Alice", 30)
 p1.greet()  # Output: Hello, my name is Alice and I am 30 years old.
 ```
 
----
+-->
 
 ## The `__init__` Method
 
 The `__init__` method is a special method that runs as soon as an object is created. It is commonly used to initialize object attributes.
 
----
+<!--
 
 ## Instance Variables and Methods
 
 - **Instance variables** are specific to each object.
 - **Instance methods** operate on object data and can access instance variables using `self`.
 
----
+-->
 
 ## Inheritance
 
@@ -59,7 +59,7 @@ d.speak()  # Inherited method
 d.bark()   # Own method
 ```
 
----
+<!--
 
 ## Method Overriding
 
@@ -78,7 +78,7 @@ c = Cat()
 c.speak()  # Output: Cat meows
 ```
 
----
+-->
 
 ## Encapsulation
 
@@ -95,7 +95,7 @@ class BankAccount:
 
 The double underscore `__` makes the variable private.
 
----
+<!--
 
 ## Summary
 
@@ -103,7 +103,7 @@ The double underscore `__` makes the variable private.
 - Key principles include **encapsulation**, **inheritance**, and **polymorphism**.
 - Use classes to organize code and promote reuse.
 
----
+-->
 
 ## 🧪 Practice Questions
 

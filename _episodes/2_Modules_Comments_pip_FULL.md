@@ -3,7 +3,7 @@
 
 In Python, code organization, readability, and reuse are essential. This chapter explores three important tools that help with these goals: **Modules**, **Comments**, and **pip**.
 
----
+<!--
 
 ## Modules
 
@@ -36,7 +36,7 @@ import math
 print(math.sqrt(25))  # Output: 5.0
 ```
 
----
+-->
 
 ## Comments
 
@@ -62,7 +62,7 @@ Python will ignore this as long as it's not assigned to a variable.
 """
 ```
 
----
+<!--
 
 ## pip – Python Package Installer
 
@@ -101,7 +101,7 @@ pip list
 pip uninstall package_name
 ```
 
----
+-->
 
 ## Summary
 

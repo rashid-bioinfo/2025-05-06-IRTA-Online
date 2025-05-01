@@ -3,13 +3,13 @@
 
 In Python, exceptions are errors that occur during the execution of a program. Exception handling allows you to manage these errors gracefully without crashing the program.
 
----
+<!--
 
 ## What is an Exception?
 
 An exception is an unwanted event that can occur during program execution, such as dividing by zero or accessing a file that doesn't exist.
 
----
+-->
 
 ## The `try-except` Block
 
@@ -22,7 +22,7 @@ except ZeroDivisionError:
     print("Cannot divide by zero!")
 ```
 
----
+<!--
 
 ## Catching Multiple Exceptions
 
@@ -38,7 +38,7 @@ except ZeroDivisionError:
     print("Cannot divide by zero.")
 ```
 
----
+-->
 
 ## The `else` Block
 
@@ -55,7 +55,7 @@ else:
     print("Result is", result)
 ```
 
----
+<!--
 
 ## The `finally` Block
 
@@ -70,7 +70,7 @@ finally:
     print("Execution complete")
 ```
 
----
+-->
 
 ## Raising Exceptions
 
@@ -82,7 +82,7 @@ if age < 0:
     raise ValueError("Age cannot be negative")
 ```
 
----
+<!--
 
 ## Summary
 
@@ -91,7 +91,7 @@ if age < 0:
 - `else` runs if no exception occurs; `finally` always runs.
 - `raise` is used to manually throw an exception.
 
----
+-->
 
 ## 🧪 Practice Questions
 

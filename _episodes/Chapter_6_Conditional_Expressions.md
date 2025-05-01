@@ -3,7 +3,7 @@
 
 Conditional expressions are used to make decisions in Python programs. They allow a program to execute certain blocks of code based on whether a condition is true or false.
 
----
+<!--
 
 ## The `if` Statement
 
@@ -16,7 +16,7 @@ if age >= 18:
     print("You are eligible to vote.")
 ```
 
----
+-->
 
 ## `if-else` Statement
 
@@ -31,7 +31,7 @@ else:
     print("Odd number")
 ```
 
----
+<!--
 
 ## `if-elif-else` Chain
 
@@ -50,7 +50,7 @@ else:
     print("Grade: F")
 ```
 
----
+-->
 
 ## Nested Conditions
 
@@ -64,7 +64,7 @@ if x > 10:
         print("x is between 10 and 20")
 ```
 
----
+<!--
 
 ## The Ternary Operator
 
@@ -78,7 +78,7 @@ min_val = a if a < b else b
 print("Minimum is:", min_val)
 ```
 
----
+-->
 
 ## Boolean Expressions
 
@@ -94,7 +94,7 @@ if x == 5 or x == 10:
     print("x is either 5 or 10")
 ```
 
----
+<!--
 
 ## Summary
 
@@ -103,7 +103,7 @@ if x == 5 or x == 10:
 - Use logical operators (`and`, `or`, `not`) to combine conditions.
 - Use the ternary operator for simple `if-else` expressions.
 
----
+-->
 
 ## 🧪 Practice Questions
 

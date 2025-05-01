@@ -3,7 +3,7 @@
 
 Dictionaries and sets are two important built-in data types in Python used to store collections of data.
 
----
+<!--
 
 ## Dictionaries
 
@@ -45,7 +45,7 @@ for key, value in student.items():
     print(key, ":", value)
 ```
 
----
+-->
 
 ## Sets
 
@@ -77,7 +77,7 @@ a.remove(1)
 a.discard(10)  # No error if element not found
 ```
 
----
+<!--
 
 ## Summary
 
@@ -86,7 +86,7 @@ a.discard(10)  # No error if element not found
 - Use dictionaries when you need to associate values with keys.
 - Use sets when you need to store unique values and perform set operations.
 
----
+-->
 
 ## 🧪 Practice Questions
 

@@ -3,7 +3,7 @@
 
 Strings are sequences of characters used to store and represent text in Python. They are one of the most commonly used data types.
 
----
+<!--
 
 ## Creating Strings
 
@@ -16,7 +16,7 @@ str3 = '''This is
 a multi-line string'''
 ```
 
----
+-->
 
 ## String Indexing and Slicing
 
@@ -33,7 +33,7 @@ print(text[:3])   # Output: 'Pyt'
 print(text[3:])   # Output: 'hon'
 ```
 
----
+<!--
 
 ## String Methods
 
@@ -49,7 +49,7 @@ print(s.count('l'))      # 3
 print(s.replace('world', 'Python'))  # hello Python
 ```
 
----
+-->
 
 ## String Formatting
 
@@ -75,7 +75,7 @@ name = "Charlie"
 print(f"Hello, {name}")
 ```
 
----
+<!--
 
 ## Escape Characters
 
@@ -87,7 +87,7 @@ print("Line1\nLine2")          # Line1
 Line2
 ```
 
----
+-->
 
 ## Useful String Operations
 
@@ -104,7 +104,7 @@ sentence = "one,two,three"
 print(sentence.split(','))  # ['one', 'two', 'three']
 ```
 
----
+<!--
 
 ## Summary
 
@@ -113,7 +113,7 @@ print(sentence.split(','))  # ['one', 'two', 'three']
 - Python provides useful string methods for manipulation.
 - Formatting can be done using `%`, `.format()`, or `f-strings`.
 
----
+-->
 
 # 🧪 Practice Questions
 

@@ -3,7 +3,7 @@
 
 Python provides built-in functions to handle file input and output operations. This allows us to read data from and write data to files easily.
 
----
+<!--
 
 ## Opening a File
 
@@ -15,7 +15,7 @@ file = open("example.txt", "w")  # Open for writing (overwrites)
 file = open("example.txt", "a")  # Open for appending
 ```
 
----
+-->
 
 ## Reading from a File
 
@@ -37,7 +37,7 @@ for line in file:
 file.close()
 ```
 
----
+<!--
 
 ## Writing to a File
 
@@ -50,7 +50,7 @@ file.write("Writing more text.
 file.close()
 ```
 
----
+-->
 
 ## Appending to a File
 
@@ -61,7 +61,7 @@ file.write("Appending this line.
 file.close()
 ```
 
----
+<!--
 
 ## Using `with` Statement
 
@@ -77,7 +77,7 @@ with open("example.txt", "w") as file:
 ")
 ```
 
----
+-->
 
 ## Handling File Paths
 
@@ -87,7 +87,7 @@ Use raw strings (`r"..."`) for Windows paths to avoid escape sequences.
 file = open(r"C:\Users\Name\Documents\file.txt", "r")
 ```
 
----
+<!--
 
 ## Summary
 
@@ -96,7 +96,7 @@ file = open(r"C:\Users\Name\Documents\file.txt", "r")
 - `read()`, `readline()`, and `readlines()` are used to get file contents.
 - `write()` and `writelines()` are used to output text to files.
 
----
+-->
 
 ## 🧪 Practice Questions
 

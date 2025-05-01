@@ -3,7 +3,7 @@
 
 A **virtual environment** in Python is a self-contained directory that contains a Python installation for a particular version, plus a number of additional packages. It helps to keep dependencies required by different projects separate.
 
----
+<!--
 
 ## Why Use Virtual Environments?
 
@@ -11,7 +11,7 @@ A **virtual environment** in Python is a self-contained directory that contains 
 - To maintain isolated environments for each project.
 - To manage different Python versions for different applications.
 
----
+-->
 
 ## Creating a Virtual Environment
 
@@ -23,7 +23,7 @@ python -m venv myenv
 
 This creates a directory called `myenv` with a local Python interpreter and installation paths.
 
----
+<!--
 
 ## Activating the Virtual Environment
 
@@ -41,7 +41,7 @@ source myenv/bin/activate
 
 Once activated, your shell prompt will change, indicating you're inside the virtual environment.
 
----
+-->
 
 ## Installing Packages in Virtual Environment
 
@@ -51,7 +51,7 @@ You can now install packages using `pip` without affecting the global Python set
 pip install requests
 ```
 
----
+<!--
 
 ## Deactivating the Virtual Environment
 
@@ -61,7 +61,7 @@ To deactivate and return to the global environment:
 deactivate
 ```
 
----
+-->
 
 ## Deleting a Virtual Environment
 
@@ -71,7 +71,7 @@ Simply delete the virtual environment directory:
 rm -r myenv  # or use File Explorer to delete on Windows
 ```
 
----
+<!--
 
 ## Summary
 
@@ -81,7 +81,7 @@ rm -r myenv  # or use File Explorer to delete on Windows
 - Install packages using `pip` as usual.
 - Deactivate using `deactivate`.
 
----
+-->
 
 ## 🧪 Practice Questions
 

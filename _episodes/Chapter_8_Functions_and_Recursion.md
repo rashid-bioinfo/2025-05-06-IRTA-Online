@@ -3,7 +3,7 @@
 
 Functions are reusable blocks of code that perform a specific task. Recursion is a technique where a function calls itself to solve smaller instances of a problem.
 
----
+<!--
 
 ## Functions
 
@@ -58,7 +58,7 @@ def square(x):
 print(square(4))  # Output: 16
 ```
 
----
+-->
 
 ## Recursion
 
@@ -81,7 +81,7 @@ print(factorial(5))  # Output: 120
 - Every recursive function must have a **base case** to stop recursion.
 - Recursion is useful for problems like factorial, Fibonacci, tree traversals, etc.
 
----
+<!--
 
 ## Summary
 
@@ -90,7 +90,7 @@ print(factorial(5))  # Output: 120
 - Recursion is a technique where a function solves smaller subproblems by calling itself.
 - Always define a base case in recursion to avoid infinite calls.
 
----
+-->
 
 ## 🧪 Practice Questions
 

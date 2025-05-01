@@ -3,7 +3,7 @@
 
 Inheritance is one of the core principles of Object Oriented Programming (OOP). It allows one class (child or derived class) to inherit attributes and methods from another class (parent or base class), promoting code reusability.
 
----
+<!--
 
 ## Basic Inheritance
 
@@ -23,7 +23,7 @@ d.speak()  # Inherited from Animal
 d.bark()   # Defined in Dog
 ```
 
----
+-->
 
 ## The `super()` Function
 
@@ -48,13 +48,13 @@ c = Cat("Whiskers")
 c.speak()  # Output: Whiskers meows
 ```
 
----
+<!--
 
 ## Method Overriding
 
 Child classes can override methods of the parent class by defining a method with the same name.
 
----
+-->
 
 ## Multi-Level Inheritance
 
@@ -75,7 +75,7 @@ obj = C()
 obj.show()  # Output: Class A
 ```
 
----
+<!--
 
 ## Multiple Inheritance
 
@@ -99,7 +99,7 @@ c = Child()
 c.skills()
 ```
 
----
+-->
 
 ## Summary
 
@@ -108,7 +108,7 @@ c.skills()
 - Supports **single**, **multi-level**, and **multiple** inheritance.
 - Enables method overriding for customized behavior.
 
----
+<!--
 
 ## 🧪 Practice Questions
 

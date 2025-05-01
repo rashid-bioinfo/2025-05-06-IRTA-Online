@@ -3,7 +3,7 @@
 
 Loops are used to execute a block of code repeatedly. Python supports two types of loops: `for` and `while`.
 
----
+<!--
 
 ## The `for` Loop
 
@@ -32,7 +32,7 @@ for i in range(1, 10, 2):
     print(i)  # Prints 1, 3, 5, 7, 9
 ```
 
----
+-->
 
 ## The `while` Loop
 
@@ -48,7 +48,7 @@ while i <= 5:
     i += 1
 ```
 
----
+<!--
 
 ## Loop Control Statements
 
@@ -87,7 +87,7 @@ else:
     print("Loop completed")
 ```
 
----
+-->
 
 ## Nested Loops
 
@@ -99,7 +99,7 @@ for i in range(1, 4):
         print(i, j)
 ```
 
----
+<!--
 
 ## Summary
 
@@ -108,7 +108,7 @@ for i in range(1, 4):
 - `break` stops the loop, `continue` skips the current iteration.
 - `else` runs if the loop is not terminated by `break`.
 
----
+-->
 
 ## 🧪 Practice Questions
 

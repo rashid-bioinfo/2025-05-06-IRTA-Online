@@ -3,7 +3,7 @@
 
 Lists and tuples are data structures used to store multiple values in a single variable. Both are sequence types, meaning their elements are ordered and can be accessed by index.
 
----
+<!--
 
 ## Lists
 
@@ -49,7 +49,7 @@ for fruit in fruits:
     print(fruit)
 ```
 
----
+-->
 
 ## Tuples
 
@@ -76,7 +76,7 @@ print(x)  # Output: 10
 print(y)  # Output: 20
 ```
 
----
+<!--
 
 ## Key Differences: List vs Tuple
 
@@ -87,7 +87,7 @@ print(y)  # Output: 20
 | Methods       | Many        | Fewer        |
 | Performance   | Slower      | Faster       |
 
----
+-->
 
 ## Summary
 
@@ -95,7 +95,7 @@ print(y)  # Output: 20
 - **Tuples** are ordered, immutable collections.
 - Use lists when you need to modify data, and tuples when the data should remain constant.
 
----
+<!--
 
 ## 🧪 Practice Questions
 
