@@ -5,13 +5,13 @@ In Python, exceptions are errors that occur during the execution of a program. E
 
 ---
 
-# What is an Exception?
+## What is an Exception?
 
 An exception is an unwanted event that can occur during program execution, such as dividing by zero or accessing a file that doesn't exist.
 
 ---
 
-# The `try-except` Block
+## The `try-except` Block
 
 The most common way to handle exceptions is using the `try-except` block.
 
@@ -24,7 +24,7 @@ except ZeroDivisionError:
 
 ---
 
-# Catching Multiple Exceptions
+## Catching Multiple Exceptions
 
 You can handle multiple types of exceptions.
 
@@ -40,7 +40,7 @@ except ZeroDivisionError:
 
 ---
 
-# The `else` Block
+## The `else` Block
 
 The `else` block runs if no exceptions occur.
 
@@ -57,7 +57,7 @@ else:
 
 ---
 
-# The `finally` Block
+## The `finally` Block
 
 The `finally` block always runs, regardless of whether an exception occurred or not.
 
@@ -72,7 +72,7 @@ finally:
 
 ---
 
-# Raising Exceptions
+## Raising Exceptions
 
 You can raise exceptions manually using `raise`.
 
@@ -84,7 +84,7 @@ if age < 0:
 
 ---
 
-# Summary
+## Summary
 
 - Exceptions are runtime errors.
 - Use `try-except` to catch and handle exceptions.
@@ -93,9 +93,9 @@ if age < 0:
 
 ---
 
-# 🧪 Practice Questions
+## 🧪 Practice Questions
 
-### Q1. What is the output of this code?
+#### Q1. What is the output of this code?
 
 ```python
 try:
@@ -111,7 +111,7 @@ c) Caught ZeroDivisionError
 d) Error
 ```
 
-### Q2. What does the `finally` block do in exception handling?
+#### Q2. What does the `finally` block do in exception handling?
 
 ```
 a) Runs only if an exception is raised  

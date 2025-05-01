@@ -5,7 +5,7 @@ A **virtual environment** in Python is a self-contained directory that contains 
 
 ---
 
-# Why Use Virtual Environments?
+## Why Use Virtual Environments?
 
 - To avoid conflicts between project dependencies.
 - To maintain isolated environments for each project.
@@ -13,7 +13,7 @@ A **virtual environment** in Python is a self-contained directory that contains 
 
 ---
 
-# Creating a Virtual Environment
+## Creating a Virtual Environment
 
 Use the `venv` module to create a virtual environment:
 
@@ -25,15 +25,15 @@ This creates a directory called `myenv` with a local Python interpreter and inst
 
 ---
 
-# Activating the Virtual Environment
+## Activating the Virtual Environment
 
-### On Windows:
+#### On Windows:
 
 ```bash
 myenv\Scripts\activate
 ```
 
-### On macOS/Linux:
+#### On macOS/Linux:
 
 ```bash
 source myenv/bin/activate
@@ -43,7 +43,7 @@ Once activated, your shell prompt will change, indicating you're inside the virt
 
 ---
 
-# Installing Packages in Virtual Environment
+## Installing Packages in Virtual Environment
 
 You can now install packages using `pip` without affecting the global Python setup:
 
@@ -53,7 +53,7 @@ pip install requests
 
 ---
 
-# Deactivating the Virtual Environment
+## Deactivating the Virtual Environment
 
 To deactivate and return to the global environment:
 
@@ -63,7 +63,7 @@ deactivate
 
 ---
 
-# Deleting a Virtual Environment
+## Deleting a Virtual Environment
 
 Simply delete the virtual environment directory:
 
@@ -73,7 +73,7 @@ rm -r myenv  # or use File Explorer to delete on Windows
 
 ---
 
-# Summary
+## Summary
 
 - Virtual environments help manage project-specific dependencies.
 - Use `python -m venv <env_name>` to create one.
@@ -83,9 +83,9 @@ rm -r myenv  # or use File Explorer to delete on Windows
 
 ---
 
-# 🧪 Practice Questions
+## 🧪 Practice Questions
 
-### Q1. What is the command to create a virtual environment named `env`?
+#### Q1. What is the command to create a virtual environment named `env`?
 
 ```
 a) python create env  
@@ -94,7 +94,7 @@ c) pip venv install env
 d) virtualenv env create
 ```
 
-### Q2. What does the `deactivate` command do?
+#### Q2. What does the `deactivate` command do?
 
 ```
 a) Deletes the virtual environment  

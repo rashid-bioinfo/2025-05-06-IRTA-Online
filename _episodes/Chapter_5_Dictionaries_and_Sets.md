@@ -5,11 +5,11 @@ Dictionaries and sets are two important built-in data types in Python used to st
 
 ---
 
-# Dictionaries
+## Dictionaries
 
 A **dictionary** is an unordered, mutable collection of key-value pairs. It is defined using curly braces `{}`.
 
-## Creating Dictionaries
+### Creating Dictionaries
 
 ```python
 student = {
@@ -19,7 +19,7 @@ student = {
 }
 ```
 
-## Accessing and Modifying Values
+### Accessing and Modifying Values
 
 ```python
 print(student["name"])       # Output: Alice
@@ -27,7 +27,7 @@ student["age"] = 22
 print(student["age"])        # Output: 22
 ```
 
-## Dictionary Methods
+### Dictionary Methods
 
 ```python
 student["grade"] = "A"         # Add new key-value pair
@@ -38,7 +38,7 @@ print(student.values())        # All values
 print(student.items())         # All key-value pairs
 ```
 
-## Looping through a Dictionary
+### Looping through a Dictionary
 
 ```python
 for key, value in student.items():
@@ -47,18 +47,18 @@ for key, value in student.items():
 
 ---
 
-# Sets
+## Sets
 
 A **set** is an unordered collection of unique elements. Sets are also defined using curly braces `{}` but only hold values, not key-value pairs.
 
-## Creating Sets
+### Creating Sets
 
 ```python
 numbers = {1, 2, 3, 4, 5}
 duplicates = {1, 2, 2, 3}  # Will automatically remove duplicate 2
 ```
 
-## Set Operations
+### Set Operations
 
 ```python
 a = {1, 2, 3}
@@ -69,7 +69,7 @@ print(a.intersection(b))  # {3}
 print(a.difference(b))    # {1, 2}
 ```
 
-## Modifying Sets
+### Modifying Sets
 
 ```python
 a.add(6)
@@ -79,7 +79,7 @@ a.discard(10)  # No error if element not found
 
 ---
 
-# Summary
+## Summary
 
 - **Dictionaries** store data in key-value pairs and are mutable.
 - **Sets** store unique items without any particular order.
@@ -88,9 +88,9 @@ a.discard(10)  # No error if element not found
 
 ---
 
-# 🧪 Practice Questions
+## 🧪 Practice Questions
 
-### Q1. What is the output of the following code?
+#### Q1. What is the output of the following code?
 
 ```python
 info = {"name": "Tom", "age": 30}
@@ -104,7 +104,7 @@ c) Error
 d) None
 ```
 
-### Q2. What is the result of the following set operation?
+#### Q2. What is the result of the following set operation?
 
 ```python
 a = {1, 2, 3}

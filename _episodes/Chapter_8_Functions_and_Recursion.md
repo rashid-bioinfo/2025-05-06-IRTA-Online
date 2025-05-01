@@ -5,22 +5,22 @@ Functions are reusable blocks of code that perform a specific task. Recursion is
 
 ---
 
-# Functions
+## Functions
 
-## Defining a Function
+### Defining a Function
 
 ```python
 def greet():
     print("Hello, welcome to Python!")
 ```
 
-## Calling a Function
+### Calling a Function
 
 ```python
 greet()
 ```
 
-## Function with Parameters
+### Function with Parameters
 
 ```python
 def add(a, b):
@@ -30,7 +30,7 @@ result = add(5, 3)
 print(result)  # Output: 8
 ```
 
-## Default Parameters
+### Default Parameters
 
 ```python
 def greet(name="Guest"):
@@ -40,7 +40,7 @@ greet()         # Hello Guest
 greet("Alice")  # Hello Alice
 ```
 
-## Keyword Arguments
+### Keyword Arguments
 
 ```python
 def describe(name, age):
@@ -49,7 +49,7 @@ def describe(name, age):
 describe(age=30, name="John")
 ```
 
-## Return Values
+### Return Values
 
 ```python
 def square(x):
@@ -60,11 +60,11 @@ print(square(4))  # Output: 16
 
 ---
 
-# Recursion
+## Recursion
 
 Recursion is when a function calls itself until a base condition is met.
 
-## Example: Factorial
+### Example: Factorial
 
 ```python
 def factorial(n):
@@ -76,14 +76,14 @@ def factorial(n):
 print(factorial(5))  # Output: 120
 ```
 
-## Key Points
+### Key Points
 
 - Every recursive function must have a **base case** to stop recursion.
 - Recursion is useful for problems like factorial, Fibonacci, tree traversals, etc.
 
 ---
 
-# Summary
+## Summary
 
 - Functions make code reusable and organized.
 - Parameters and return values enable dynamic behaviors.
@@ -92,9 +92,9 @@ print(factorial(5))  # Output: 120
 
 ---
 
-# 🧪 Practice Questions
+## 🧪 Practice Questions
 
-### Q1. What will be the output of this code?
+#### Q1. What will be the output of this code?
 
 ```python
 def greet(name="User"):
@@ -110,7 +110,7 @@ c) Tom Hello
 d) Error
 ```
 
-### Q2. What is the output of the following recursive function?
+#### Q2. What is the output of the following recursive function?
 
 ```python
 def test(n):

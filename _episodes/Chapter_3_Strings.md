@@ -5,7 +5,7 @@ Strings are sequences of characters used to store and represent text in Python. 
 
 ---
 
-# Creating Strings
+## Creating Strings
 
 Strings in Python can be created using single quotes `'`, double quotes `"`, or triple quotes `'''` / `"""`.
 
@@ -18,7 +18,7 @@ a multi-line string'''
 
 ---
 
-# String Indexing and Slicing
+## String Indexing and Slicing
 
 You can access characters in a string using indexing and extract parts of strings using slicing.
 
@@ -35,7 +35,7 @@ print(text[3:])   # Output: 'hon'
 
 ---
 
-# String Methods
+## String Methods
 
 Python provides many built-in methods for string manipulation.
 
@@ -51,24 +51,24 @@ print(s.replace('world', 'Python'))  # hello Python
 
 ---
 
-# String Formatting
+## String Formatting
 
 There are three ways to format strings in Python.
 
-## Old Style
+### Old Style
 
 ```python
 name = "Alice"
 print("Hello %s" % name)
 ```
 
-## str.format()
+### str.format()
 
 ```python
 print("Hello, {}".format("Bob"))
 ```
 
-## f-Strings (Python 3.6+)
+### f-Strings (Python 3.6+)
 
 ```python
 name = "Charlie"
@@ -77,7 +77,7 @@ print(f"Hello, {name}")
 
 ---
 
-# Escape Characters
+## Escape Characters
 
 Escape characters are used to insert characters that are illegal in a string.
 
@@ -89,24 +89,24 @@ Line2
 
 ---
 
-# Useful String Operations
+## Useful String Operations
 
 ```python
-# Checking membership
+### Checking membership
 print("Py" in "Python")  # True
 
-# Joining strings
+### Joining strings
 words = ["Python", "is", "fun"]
 print(" ".join(words))   # Python is fun
 
-# Splitting strings
+### Splitting strings
 sentence = "one,two,three"
 print(sentence.split(','))  # ['one', 'two', 'three']
 ```
 
 ---
 
-# Summary
+## Summary
 
 - Strings are sequences of characters.
 - Indexing and slicing are used to access parts of a string.

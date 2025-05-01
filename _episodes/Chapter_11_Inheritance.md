@@ -5,9 +5,9 @@ Inheritance is one of the core principles of Object Oriented Programming (OOP). 
 
 ---
 
-# Basic Inheritance
+## Basic Inheritance
 
-## Example
+### Example
 
 ```python
 class Animal:
@@ -25,7 +25,7 @@ d.bark()   # Defined in Dog
 
 ---
 
-# The `super()` Function
+## The `super()` Function
 
 The `super()` function allows access to methods from the parent class.
 
@@ -50,13 +50,13 @@ c.speak()  # Output: Whiskers meows
 
 ---
 
-# Method Overriding
+## Method Overriding
 
 Child classes can override methods of the parent class by defining a method with the same name.
 
 ---
 
-# Multi-Level Inheritance
+## Multi-Level Inheritance
 
 Inheritance can go more than one level deep.
 
@@ -77,7 +77,7 @@ obj.show()  # Output: Class A
 
 ---
 
-# Multiple Inheritance
+## Multiple Inheritance
 
 A class can inherit from multiple classes.
 
@@ -101,7 +101,7 @@ c.skills()
 
 ---
 
-# Summary
+## Summary
 
 - **Inheritance** allows one class to reuse code from another.
 - Use `super()` to access methods from a parent class.
@@ -110,9 +110,9 @@ c.skills()
 
 ---
 
-# 🧪 Practice Questions
+## 🧪 Practice Questions
 
-### Q1. What is the output of the following code?
+#### Q1. What is the output of the following code?
 
 ```python
 class Parent:
@@ -134,7 +134,7 @@ c) Parent Child
 d) Error
 ```
 
-### Q2. Which of the following statements is TRUE about `super()`?
+#### Q2. Which of the following statements is TRUE about `super()`?
 
 ```
 a) It creates a new class  

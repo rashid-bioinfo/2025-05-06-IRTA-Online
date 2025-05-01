@@ -311,6 +311,11 @@ Everyone who participates in Carpentries activities is required to conform to th
 <hr/>
 
 
+<h2>Workshop Notes</h2>
+<p><a href="{{ site.baseurl }}/python/">Python Notes</a></p>
+
+
+
 {% comment %}
 Collaborative Notes
 

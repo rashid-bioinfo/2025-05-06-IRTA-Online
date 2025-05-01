@@ -5,11 +5,11 @@ Loops are used to execute a block of code repeatedly. Python supports two types 
 
 ---
 
-# The `for` Loop
+## The `for` Loop
 
 The `for` loop is used to iterate over a sequence (like a list, tuple, dictionary, set, or string).
 
-## Example: Iterating Over a List
+### Example: Iterating Over a List
 
 ```python
 fruits = ["apple", "banana", "cherry"]
@@ -18,7 +18,7 @@ for fruit in fruits:
     print(fruit)
 ```
 
-## Using `range()`
+### Using `range()`
 
 ```python
 for i in range(5):
@@ -34,11 +34,11 @@ for i in range(1, 10, 2):
 
 ---
 
-# The `while` Loop
+## The `while` Loop
 
 The `while` loop runs as long as a condition is `True`.
 
-## Example
+### Example
 
 ```python
 i = 1
@@ -50,11 +50,11 @@ while i <= 5:
 
 ---
 
-# Loop Control Statements
+## Loop Control Statements
 
 Python provides three keywords to control the flow of loops:
 
-## `break`
+### `break`
 
 Exits the loop prematurely.
 
@@ -65,7 +65,7 @@ for i in range(10):
     print(i)
 ```
 
-## `continue`
+### `continue`
 
 Skips the current iteration.
 
@@ -76,7 +76,7 @@ for i in range(5):
     print(i)
 ```
 
-## `else` with Loops
+### `else` with Loops
 
 The `else` block runs after the loop finishes naturally (not by `break`).
 
@@ -89,7 +89,7 @@ else:
 
 ---
 
-# Nested Loops
+## Nested Loops
 
 You can use loops inside loops.
 
@@ -101,7 +101,7 @@ for i in range(1, 4):
 
 ---
 
-# Summary
+## Summary
 
 - Use `for` loops to iterate over sequences.
 - Use `while` loops for indefinite iteration.
@@ -110,9 +110,9 @@ for i in range(1, 4):
 
 ---
 
-# 🧪 Practice Questions
+## 🧪 Practice Questions
 
-### Q1. How many times will "Python" be printed?
+#### Q1. How many times will "Python" be printed?
 
 ```python
 for i in range(3):
@@ -126,7 +126,7 @@ c) 4
 d) Infinite
 ```
 
-### Q2. What is the output of this code?
+#### Q2. What is the output of this code?
 
 ```python
 i = 1

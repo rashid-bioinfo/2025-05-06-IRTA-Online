@@ -5,11 +5,11 @@ Variables are used to store information in a program, and data types define what
 
 ---
 
-# Variables in Python
+## Variables in Python
 
 In Python, variables are created when you assign a value to them. You don’t need to declare their type.
 
-## Example
+### Example
 
 ```python
 x = 10        # Integer
@@ -24,7 +24,7 @@ x = 10
 x = "Now I am a string"
 ```
 
-## Rules for Naming Variables
+### Rules for Naming Variables
 
 - Variable names must start with a letter or underscore (`_`)
 - They cannot start with a number
@@ -33,11 +33,11 @@ x = "Now I am a string"
 
 ---
 
-# Datatypes in Python
+## Datatypes in Python
 
 Python has several built-in data types. The most common are:
 
-## Numeric Types
+### Numeric Types
 
 ```python
 a = 10       # int
@@ -45,44 +45,44 @@ b = 10.5     # float
 c = 2 + 3j   # complex
 ```
 
-## String Type
+### String Type
 
 ```python
 message = "Hello, World!"
 ```
 
-## Boolean Type
+### Boolean Type
 
 ```python
 is_active = True
 is_logged_in = False
 ```
 
-## List Type
+### List Type
 
 ```python
 fruits = ["apple", "banana", "cherry"]
 ```
 
-## Tuple Type
+### Tuple Type
 
 ```python
 coordinates = (10, 20)
 ```
 
-## Dictionary Type
+### Dictionary Type
 
 ```python
 student = {"name": "Alice", "age": 22}
 ```
 
-## Set Type
+### Set Type
 
 ```python
 unique_numbers = {1, 2, 3}
 ```
 
-## Type Checking
+### Type Checking
 
 You can check the type of any variable using `type()`:
 
@@ -93,7 +93,7 @@ print(type(x))  # Output: <class 'int'>
 
 ---
 
-# Summary
+## Summary
 
 - Variables store values that can be reused and manipulated.
 - Python infers the data type automatically.
@@ -102,9 +102,9 @@ print(type(x))  # Output: <class 'int'>
 
 ---
 
-# 🧪 Practice Questions
+## 🧪 Practice Questions
 
-### Q1. What will be the output of the following code?
+#### Q1. What will be the output of the following code?
 
 ```python
 x = 5
@@ -117,7 +117,7 @@ b) Hello
 c) Error  
 d) None
 
-### Q2. Which of the following is a valid variable name in Python?
+#### Q2. Which of the following is a valid variable name in Python?
 
 a) 1name  
 b) my-name  

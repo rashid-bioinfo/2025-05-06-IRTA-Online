@@ -11,19 +11,19 @@ Without programming, computers would be useless pieces of hardware.
 
 This chapter sets the stage for understanding what programming is and why it's one of the most valuable skills in today’s digital world.
 
-# What is Programming?
+## What is Programming?
 
 Programming is the process of writing a **set of instructions** that a computer follows to perform a specific task. These instructions are written in **programming languages** like Python, C++, Java, etc.
 
 Think of programming like writing a recipe. Just as a recipe contains step-by-step instructions for cooking a dish, a program contains step-by-step commands for the computer to execute.
 
-## Why is Programming Important?
+### Why is Programming Important?
 
 - It allows us to create software applications.
 - It automates tasks that would be tedious or impossible to do manually.
 - It powers everything from websites and video games to medical devices and artificial intelligence.
 
-## A Simple Example
+### A Simple Example
 
 Here’s a very basic example of programming using Python — one of the most beginner-friendly programming languages:
 
@@ -33,7 +33,7 @@ b = 7
 print("The sum is:", a + b)
 ```
 
-### Output:
+#### Output:
 ```
 The sum is: 12
 ```
@@ -46,7 +46,7 @@ This simple program:
 
 Even though this is a small example, the same principles apply when you're building more complex systems — like a web browser or a mobile app.
 
-## Real-World Applications of Programming
+### Real-World Applications of Programming
 
 - **Web Development**: Creating websites and web applications.
 - **Mobile Apps**: Building Android or iOS applications.
@@ -55,7 +55,7 @@ Even though this is a small example, the same principles apply when you're build
 - **Artificial Intelligence**: Teaching computers to think and learn.
 - **Cybersecurity**: Writing secure code to protect systems.
 
-## Summary
+### Summary
 
 - Programming is the art of telling computers what to do using code.
 - It is done using special languages called **programming languages**.

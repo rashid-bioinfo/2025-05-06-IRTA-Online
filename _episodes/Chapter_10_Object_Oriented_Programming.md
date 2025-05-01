@@ -5,9 +5,9 @@ Object Oriented Programming (OOP) is a programming paradigm based on the concept
 
 ---
 
-# Classes and Objects
+## Classes and Objects
 
-## Defining a Class
+### Defining a Class
 
 ```python
 class Person:
@@ -19,7 +19,7 @@ class Person:
         print(f"Hello, my name is {self.name} and I am {self.age} years old.")
 ```
 
-## Creating Objects
+### Creating Objects
 
 ```python
 p1 = Person("Alice", 30)
@@ -28,20 +28,20 @@ p1.greet()  # Output: Hello, my name is Alice and I am 30 years old.
 
 ---
 
-# The `__init__` Method
+## The `__init__` Method
 
 The `__init__` method is a special method that runs as soon as an object is created. It is commonly used to initialize object attributes.
 
 ---
 
-# Instance Variables and Methods
+## Instance Variables and Methods
 
 - **Instance variables** are specific to each object.
 - **Instance methods** operate on object data and can access instance variables using `self`.
 
 ---
 
-# Inheritance
+## Inheritance
 
 Inheritance allows one class to inherit the attributes and methods of another.
 
@@ -61,7 +61,7 @@ d.bark()   # Own method
 
 ---
 
-# Method Overriding
+## Method Overriding
 
 Child classes can override parent class methods.
 
@@ -80,7 +80,7 @@ c.speak()  # Output: Cat meows
 
 ---
 
-# Encapsulation
+## Encapsulation
 
 Encapsulation restricts direct access to some of an object’s components.
 
@@ -97,7 +97,7 @@ The double underscore `__` makes the variable private.
 
 ---
 
-# Summary
+## Summary
 
 - OOP models real-world entities using classes and objects.
 - Key principles include **encapsulation**, **inheritance**, and **polymorphism**.
@@ -105,9 +105,9 @@ The double underscore `__` makes the variable private.
 
 ---
 
-# 🧪 Practice Questions
+## 🧪 Practice Questions
 
-### Q1. What will be the output of the following code?
+#### Q1. What will be the output of the following code?
 
 ```python
 class A:
@@ -129,7 +129,7 @@ c) A B
 d) B A
 ```
 
-### Q2. Which of the following best defines encapsulation in OOP?
+#### Q2. Which of the following best defines encapsulation in OOP?
 
 ```
 a) Grouping functions together  

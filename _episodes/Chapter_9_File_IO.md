@@ -5,7 +5,7 @@ Python provides built-in functions to handle file input and output operations. T
 
 ---
 
-# Opening a File
+## Opening a File
 
 Use the `open()` function to open a file.
 
@@ -17,9 +17,9 @@ file = open("example.txt", "a")  # Open for appending
 
 ---
 
-# Reading from a File
+## Reading from a File
 
-## Read the entire file
+### Read the entire file
 
 ```python
 file = open("example.txt", "r")
@@ -28,7 +28,7 @@ print(content)
 file.close()
 ```
 
-## Read line by line
+### Read line by line
 
 ```python
 file = open("example.txt", "r")
@@ -39,7 +39,7 @@ file.close()
 
 ---
 
-# Writing to a File
+## Writing to a File
 
 ```python
 file = open("example.txt", "w")
@@ -52,7 +52,7 @@ file.close()
 
 ---
 
-# Appending to a File
+## Appending to a File
 
 ```python
 file = open("example.txt", "a")
@@ -63,7 +63,7 @@ file.close()
 
 ---
 
-# Using `with` Statement
+## Using `with` Statement
 
 Using `with` automatically closes the file.
 
@@ -79,7 +79,7 @@ with open("example.txt", "w") as file:
 
 ---
 
-# Handling File Paths
+## Handling File Paths
 
 Use raw strings (`r"..."`) for Windows paths to avoid escape sequences.
 
@@ -89,7 +89,7 @@ file = open(r"C:\Users\Name\Documents\file.txt", "r")
 
 ---
 
-# Summary
+## Summary
 
 - Use `open()` with appropriate mode (`'r'`, `'w'`, `'a'`) to interact with files.
 - Always close files or use `with` for automatic handling.
@@ -98,9 +98,9 @@ file = open(r"C:\Users\Name\Documents\file.txt", "r")
 
 ---
 
-# 🧪 Practice Questions
+## 🧪 Practice Questions
 
-### Q1. What will happen if you open a file in `'w'` mode and write to it?
+#### Q1. What will happen if you open a file in `'w'` mode and write to it?
 
 ```python
 file = open("data.txt", "w")
@@ -115,7 +115,7 @@ c) Existing data is preserved
 d) Existing data is deleted and new data is written
 ```
 
-### Q2. Which of the following ensures that a file is properly closed after reading?
+#### Q2. Which of the following ensures that a file is properly closed after reading?
 
 ```
 a) close(file)  
