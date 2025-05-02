@@ -383,7 +383,6 @@ of code below the Schedule `<h2>` header below with
 
 {% if site.carpentry == "swc" %}
 {% include swc/schedule.html %}
-{% include swc/syllabus.html %}
 
 
 
