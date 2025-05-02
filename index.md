@@ -387,6 +387,9 @@ of code below the Schedule `<h2>` header below with
 <h2 id="resources">Workshop Notes</h2>
 <a href="{{ '/resources/' | relative_url }}">Python Notes</a>
 
+<h2 id="installation">Getting Started</h2>
+<a href="{{ '/installation/' | relative_url }}">Installation Instructions</a>
+
 
 {% elsif site.carpentry == "dc" %}
 {% include dc/schedule.html %}
