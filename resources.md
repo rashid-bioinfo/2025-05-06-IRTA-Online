@@ -79,7 +79,7 @@ Even though this is a small example, the same principles apply when you're build
 
 In Python, code organization, readability, and reuse are essential. This chapter explores three important tools that help with these goals: **Modules**, **Comments**, and **pip**.
 
-<!--
+
 
 ## Modules
 
@@ -112,7 +112,7 @@ import math
 print(math.sqrt(25))  # Output: 5.0
 ```
 
--->
+
 
 ## Comments
 
@@ -138,7 +138,7 @@ Python will ignore this as long as it's not assigned to a variable.
 """
 ```
 
-<!--
+
 
 ## pip – Python Package Installer
 
@@ -177,7 +177,7 @@ pip list
 pip uninstall package_name
 ```
 
--->
+
 
 ## Summary
 
@@ -196,7 +196,7 @@ pip uninstall package_name
 
 Variables are used to store information in a program, and data types define what kind of data a variable holds.
 
-<!--
+
 
 ## Variables in Python
 
@@ -284,7 +284,7 @@ x = 42
 print(type(x))  # Output: <class 'int'>
 ```
 
-<!--
+
 
 ## Summary
 
@@ -293,7 +293,7 @@ print(type(x))  # Output: <class 'int'>
 - Data types include numbers, strings, lists, tuples, dictionaries, sets, and more.
 - Use `type()` to check a variable’s data type.
 
--->
+
 
 ## 🧪 Practice Questions
 
@@ -326,7 +326,7 @@ d) class
 
 Strings are sequences of characters used to store and represent text in Python. They are one of the most commonly used data types.
 
-<!--
+
 
 ## Creating Strings
 
@@ -339,7 +339,7 @@ str3 = '''This is
 a multi-line string'''
 ```
 
--->
+
 
 ## String Indexing and Slicing
 
@@ -356,7 +356,7 @@ print(text[:3])   # Output: 'Pyt'
 print(text[3:])   # Output: 'hon'
 ```
 
-<!--
+
 
 ## String Methods
 
@@ -372,7 +372,7 @@ print(s.count('l'))      # 3
 print(s.replace('world', 'Python'))  # hello Python
 ```
 
--->
+
 
 ## String Formatting
 
@@ -398,7 +398,7 @@ name = "Charlie"
 print(f"Hello, {name}")
 ```
 
-<!--
+
 
 ## Escape Characters
 
@@ -410,7 +410,7 @@ print("Line1\nLine2")          # Line1
 Line2
 ```
 
--->
+
 
 ## Useful String Operations
 
@@ -427,7 +427,7 @@ sentence = "one,two,three"
 print(sentence.split(','))  # ['one', 'two', 'three']
 ```
 
-<!--
+
 
 ## Summary
 
@@ -436,7 +436,7 @@ print(sentence.split(','))  # ['one', 'two', 'three']
 - Python provides useful string methods for manipulation.
 - Formatting can be done using `%`, `.format()`, or `f-strings`.
 
--->
+
 
 # 🧪 Practice Questions
 
@@ -476,7 +476,6 @@ d) "join".words(',')
 
 Lists and tuples are data structures used to store multiple values in a single variable. Both are sequence types, meaning their elements are ordered and can be accessed by index.
 
-<!--
 
 ## Lists
 
@@ -522,7 +521,7 @@ for fruit in fruits:
     print(fruit)
 ```
 
--->
+
 
 ## Tuples
 
@@ -547,9 +546,9 @@ print(coordinates[0])  # Output: 10
 x, y = coordinates
 print(x)  # Output: 10
 print(y)  # Output: 20
-```
 
-<!--
+
+
 
 ## Key Differences: List vs Tuple
 
@@ -568,7 +567,7 @@ print(y)  # Output: 20
 - **Tuples** are ordered, immutable collections.
 - Use lists when you need to modify data, and tuples when the data should remain constant.
 
-<!--
+
 
 ## 🧪 Practice Questions
 
@@ -605,7 +604,6 @@ d) mydata = {"a": 1, "b": 2}
 
 Dictionaries and sets are two important built-in data types in Python used to store collections of data.
 
-<!--
 
 ## Dictionaries
 
@@ -679,7 +677,7 @@ a.remove(1)
 a.discard(10)  # No error if element not found
 ```
 
-<!--
+
 
 ## Summary
 
@@ -688,7 +686,7 @@ a.discard(10)  # No error if element not found
 - Use dictionaries when you need to associate values with keys.
 - Use sets when you need to store unique values and perform set operations.
 
--->
+
 
 ## 🧪 Practice Questions
 
@@ -730,7 +728,7 @@ d) {2, 4}
 
 Conditional expressions are used to make decisions in Python programs. They allow a program to execute certain blocks of code based on whether a condition is true or false.
 
-<!--
+
 
 ## The `if` Statement
 
@@ -743,7 +741,7 @@ if age >= 18:
     print("You are eligible to vote.")
 ```
 
--->
+
 
 ## `if-else` Statement
 
@@ -758,7 +756,6 @@ else:
     print("Odd number")
 ```
 
-<!--
 
 ## `if-elif-else` Chain
 
@@ -777,7 +774,7 @@ else:
     print("Grade: F")
 ```
 
--->
+
 
 ## Nested Conditions
 
@@ -791,7 +788,7 @@ if x > 10:
         print("x is between 10 and 20")
 ```
 
-<!--
+
 
 ## The Ternary Operator
 
@@ -805,7 +802,7 @@ min_val = a if a < b else b
 print("Minimum is:", min_val)
 ```
 
--->
+
 
 ## Boolean Expressions
 
@@ -923,7 +920,6 @@ while i <= 5:
     i += 1
 ```
 
-<!--
 
 ## Loop Control Statements
 
@@ -974,7 +970,7 @@ for i in range(1, 4):
         print(i, j)
 ```
 
-<!--
+
 
 ## Summary
 
@@ -1083,7 +1079,7 @@ def square(x):
 print(square(4))  # Output: 16
 ```
 
--->
+
 
 ## Recursion
 
@@ -1106,7 +1102,6 @@ print(factorial(5))  # Output: 120
 - Every recursive function must have a **base case** to stop recursion.
 - Recursion is useful for problems like factorial, Fibonacci, tree traversals, etc.
 
-<!--
 
 ## Summary
 
@@ -1115,7 +1110,7 @@ print(factorial(5))  # Output: 120
 - Recursion is a technique where a function solves smaller subproblems by calling itself.
 - Always define a base case in recursion to avoid infinite calls.
 
--->
+
 
 ## 🧪 Practice Questions
 
@@ -1163,7 +1158,6 @@ d) Error
 
 Python provides built-in functions to handle file input and output operations. This allows us to read data from and write data to files easily.
 
-<!--
 
 ## Opening a File
 
@@ -1175,7 +1169,6 @@ file = open("example.txt", "w")  # Open for writing (overwrites)
 file = open("example.txt", "a")  # Open for appending
 ```
 
--->
 
 ## Reading from a File
 
@@ -1197,7 +1190,7 @@ for line in file:
 file.close()
 ```
 
-<!--
+
 
 ## Writing to a File
 
@@ -1210,8 +1203,6 @@ file.write("Writing more text.
 file.close()
 ```
 
--->
-
 ## Appending to a File
 
 ```python
@@ -1220,8 +1211,6 @@ file.write("Appending this line.
 ")
 file.close()
 ```
-
-<!--
 
 ## Using `with` Statement
 
@@ -1247,7 +1236,6 @@ Use raw strings (`r"..."`) for Windows paths to avoid escape sequences.
 file = open(r"C:\Users\Name\Documents\file.txt", "r")
 ```
 
-<!--
 
 ## Summary
 
@@ -1256,7 +1244,6 @@ file = open(r"C:\Users\Name\Documents\file.txt", "r")
 - `read()`, `readline()`, and `readlines()` are used to get file contents.
 - `write()` and `writelines()` are used to output text to files.
 
--->
 
 ## 🧪 Practice Questions
 
@@ -1293,7 +1280,6 @@ d) open(file).read()
 
 Object Oriented Programming (OOP) is a programming paradigm based on the concept of **objects**, which contain **data** and **methods**. Python supports OOP features such as classes, objects, inheritance, encapsulation, and polymorphism.
 
-<!--
 
 ## Classes and Objects
 
@@ -1322,7 +1308,6 @@ p1.greet()  # Output: Hello, my name is Alice and I am 30 years old.
 
 The `__init__` method is a special method that runs as soon as an object is created. It is commonly used to initialize object attributes.
 
-<!--
 
 ## Instance Variables and Methods
 
@@ -1349,7 +1334,7 @@ d.speak()  # Inherited method
 d.bark()   # Own method
 ```
 
-<!--
+
 
 ## Method Overriding
 
@@ -1385,7 +1370,6 @@ class BankAccount:
 
 The double underscore `__` makes the variable private.
 
-<!--
 
 ## Summary
 
@@ -1437,7 +1421,7 @@ d) Overriding methods in subclasses
 
 Inheritance is one of the core principles of Object Oriented Programming (OOP). It allows one class (child or derived class) to inherit attributes and methods from another class (parent or base class), promoting code reusability.
 
-<!--
+
 
 ## Basic Inheritance
 
@@ -1509,7 +1493,7 @@ obj = C()
 obj.show()  # Output: Class A
 ```
 
-<!--
+
 
 ## Multiple Inheritance
 
@@ -1542,7 +1526,6 @@ c.skills()
 - Supports **single**, **multi-level**, and **multiple** inheritance.
 - Enables method overriding for customized behavior.
 
-<!--
 
 ## 🧪 Practice Questions
 
@@ -1586,7 +1569,7 @@ d) It returns the child object
 
 In Python, exceptions are errors that occur during the execution of a program. Exception handling allows you to manage these errors gracefully without crashing the program.
 
-<!--
+
 
 ## What is an Exception?
 
@@ -1605,7 +1588,6 @@ except ZeroDivisionError:
     print("Cannot divide by zero!")
 ```
 
-<!--
 
 ## Catching Multiple Exceptions
 
@@ -1638,7 +1620,6 @@ else:
     print("Result is", result)
 ```
 
-<!--
 
 ## The `finally` Block
 
@@ -1712,7 +1693,7 @@ d) Prevents errors from occurring
 
 A **virtual environment** in Python is a self-contained directory that contains a Python installation for a particular version, plus a number of additional packages. It helps to keep dependencies required by different projects separate.
 
-<!--
+
 
 ## Why Use Virtual Environments?
 
@@ -1732,7 +1713,6 @@ python -m venv myenv
 
 This creates a directory called `myenv` with a local Python interpreter and installation paths.
 
-<!--
 
 ## Activating the Virtual Environment
 
@@ -1760,7 +1740,7 @@ You can now install packages using `pip` without affecting the global Python set
 pip install requests
 ```
 
-<!--
+
 
 ## Deactivating the Virtual Environment
 
@@ -1780,7 +1760,7 @@ Simply delete the virtual environment directory:
 rm -r myenv  # or use File Explorer to delete on Windows
 ```
 
-<!--
+
 
 ## Summary
 
@@ -1813,10 +1793,6 @@ d) Closes the terminal
 ```
 
 
----
-
-
-UR BA N
 
 ---
 
