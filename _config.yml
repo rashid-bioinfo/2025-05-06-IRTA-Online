@@ -120,6 +120,11 @@ start_time: 0
 collections:
   episodes:
     output: true
+    permalink: /episodes/:name/
+
+collections:
+  episodes:
+    output: true
     permalink: /:path/index.html
   extras:
     output: true
