@@ -322,539 +322,6 @@ d) class
 
 
 
-# Chapter 10 - Object Oriented Programming
-
-Object Oriented Programming (OOP) is a programming paradigm based on the concept of **objects**, which contain **data** and **methods**. Python supports OOP features such as classes, objects, inheritance, encapsulation, and polymorphism.
-
-<!--
-
-## Classes and Objects
-
-### Defining a Class
-
-```python
-class Person:
-    def __init__(self, name, age):
-        self.name = name
-        self.age = age
-
-    def greet(self):
-        print(f"Hello, my name is {self.name} and I am {self.age} years old.")
-```
-
-### Creating Objects
-
-```python
-p1 = Person("Alice", 30)
-p1.greet()  # Output: Hello, my name is Alice and I am 30 years old.
-```
-
--->
-
-## The `__init__` Method
-
-The `__init__` method is a special method that runs as soon as an object is created. It is commonly used to initialize object attributes.
-
-<!--
-
-## Instance Variables and Methods
-
-- **Instance variables** are specific to each object.
-- **Instance methods** operate on object data and can access instance variables using `self`.
-
--->
-
-## Inheritance
-
-Inheritance allows one class to inherit the attributes and methods of another.
-
-```python
-class Animal:
-    def speak(self):
-        print("Animal speaks")
-
-class Dog(Animal):
-    def bark(self):
-        print("Dog barks")
-
-d = Dog()
-d.speak()  # Inherited method
-d.bark()   # Own method
-```
-
-<!--
-
-## Method Overriding
-
-Child classes can override parent class methods.
-
-```python
-class Animal:
-    def speak(self):
-        print("Animal speaks")
-
-class Cat(Animal):
-    def speak(self):
-        print("Cat meows")
-
-c = Cat()
-c.speak()  # Output: Cat meows
-```
-
--->
-
-## Encapsulation
-
-Encapsulation restricts direct access to some of an object’s components.
-
-```python
-class BankAccount:
-    def __init__(self, balance):
-        self.__balance = balance
-
-    def get_balance(self):
-        return self.__balance
-```
-
-The double underscore `__` makes the variable private.
-
-<!--
-
-## Summary
-
-- OOP models real-world entities using classes and objects.
-- Key principles include **encapsulation**, **inheritance**, and **polymorphism**.
-- Use classes to organize code and promote reuse.
-
--->
-
-## 🧪 Practice Questions
-
-#### Q1. What will be the output of the following code?
-
-```python
-class A:
-    def __init__(self):
-        print("A")
-
-class B(A):
-    def __init__(self):
-        super().__init__()
-        print("B")
-
-b = B()
-```
-
-```
-a) A  
-b) B  
-c) A B  
-d) B A
-```
-
-#### Q2. Which of the following best defines encapsulation in OOP?
-
-```
-a) Grouping functions together  
-b) Hiding data and providing access through methods  
-c) Creating functions outside of class  
-d) Overriding methods in subclasses
-```
-
-
----
-
-
-
-# Chapter 11 - Inheritance
-
-Inheritance is one of the core principles of Object Oriented Programming (OOP). It allows one class (child or derived class) to inherit attributes and methods from another class (parent or base class), promoting code reusability.
-
-<!--
-
-## Basic Inheritance
-
-### Example
-
-```python
-class Animal:
-    def speak(self):
-        print("Animal speaks")
-
-class Dog(Animal):
-    def bark(self):
-        print("Dog barks")
-
-d = Dog()
-d.speak()  # Inherited from Animal
-d.bark()   # Defined in Dog
-```
-
--->
-
-## The `super()` Function
-
-The `super()` function allows access to methods from the parent class.
-
-```python
-class Animal:
-    def __init__(self, name):
-        self.name = name
-
-    def speak(self):
-        print(f"{self.name} makes a sound")
-
-class Cat(Animal):
-    def __init__(self, name):
-        super().__init__(name)
-
-    def speak(self):
-        print(f"{self.name} meows")
-
-c = Cat("Whiskers")
-c.speak()  # Output: Whiskers meows
-```
-
-<!--
-
-## Method Overriding
-
-Child classes can override methods of the parent class by defining a method with the same name.
-
--->
-
-## Multi-Level Inheritance
-
-Inheritance can go more than one level deep.
-
-```python
-class A:
-    def show(self):
-        print("Class A")
-
-class B(A):
-    pass
-
-class C(B):
-    pass
-
-obj = C()
-obj.show()  # Output: Class A
-```
-
-<!--
-
-## Multiple Inheritance
-
-A class can inherit from multiple classes.
-
-```python
-class Father:
-    def skills(self):
-        print("Gardening, Programming")
-
-class Mother:
-    def skills(self):
-        print("Cooking")
-
-class Child(Father, Mother):
-    def skills(self):
-        super().skills()
-        print("Drawing")
-
-c = Child()
-c.skills()
-```
-
--->
-
-## Summary
-
-- **Inheritance** allows one class to reuse code from another.
-- Use `super()` to access methods from a parent class.
-- Supports **single**, **multi-level**, and **multiple** inheritance.
-- Enables method overriding for customized behavior.
-
-<!--
-
-## 🧪 Practice Questions
-
-#### Q1. What is the output of the following code?
-
-```python
-class Parent:
-    def show(self):
-        print("Parent")
-
-class Child(Parent):
-    def show(self):
-        print("Child")
-
-c = Child()
-c.show()
-```
-
-```
-a) Parent  
-b) Child  
-c) Parent Child  
-d) Error
-```
-
-#### Q2. Which of the following statements is TRUE about `super()`?
-
-```
-a) It creates a new class  
-b) It initializes private variables  
-c) It accesses methods from the base class  
-d) It returns the child object
-```
-
-
----
-
-
-
-# Chapter 12 - Exception Handling in Python
-
-In Python, exceptions are errors that occur during the execution of a program. Exception handling allows you to manage these errors gracefully without crashing the program.
-
-<!--
-
-## What is an Exception?
-
-An exception is an unwanted event that can occur during program execution, such as dividing by zero or accessing a file that doesn't exist.
-
--->
-
-## The `try-except` Block
-
-The most common way to handle exceptions is using the `try-except` block.
-
-```python
-try:
-    x = 10 / 0
-except ZeroDivisionError:
-    print("Cannot divide by zero!")
-```
-
-<!--
-
-## Catching Multiple Exceptions
-
-You can handle multiple types of exceptions.
-
-```python
-try:
-    num = int(input("Enter a number: "))
-    result = 10 / num
-except ValueError:
-    print("Invalid input. Please enter a number.")
-except ZeroDivisionError:
-    print("Cannot divide by zero.")
-```
-
--->
-
-## The `else` Block
-
-The `else` block runs if no exceptions occur.
-
-```python
-try:
-    x = 5
-    y = 2
-    result = x / y
-except ZeroDivisionError:
-    print("Error: Division by zero")
-else:
-    print("Result is", result)
-```
-
-<!--
-
-## The `finally` Block
-
-The `finally` block always runs, regardless of whether an exception occurred or not.
-
-```python
-try:
-    file = open("test.txt", "r")
-except FileNotFoundError:
-    print("File not found")
-finally:
-    print("Execution complete")
-```
-
--->
-
-## Raising Exceptions
-
-You can raise exceptions manually using `raise`.
-
-```python
-age = -1
-if age < 0:
-    raise ValueError("Age cannot be negative")
-```
-
-<!--
-
-## Summary
-
-- Exceptions are runtime errors.
-- Use `try-except` to catch and handle exceptions.
-- `else` runs if no exception occurs; `finally` always runs.
-- `raise` is used to manually throw an exception.
-
--->
-
-## 🧪 Practice Questions
-
-#### Q1. What is the output of this code?
-
-```python
-try:
-    print(1 / 0)
-except ZeroDivisionError:
-    print("Caught ZeroDivisionError")
-```
-
-```
-a) 0  
-b) 1  
-c) Caught ZeroDivisionError  
-d) Error
-```
-
-#### Q2. What does the `finally` block do in exception handling?
-
-```
-a) Runs only if an exception is raised  
-b) Runs only if no exception is raised  
-c) Always runs regardless of exceptions  
-d) Prevents errors from occurring
-```
-
-
----
-
-
-
-# Chapter 13 - Virtual Environment
-
-A **virtual environment** in Python is a self-contained directory that contains a Python installation for a particular version, plus a number of additional packages. It helps to keep dependencies required by different projects separate.
-
-<!--
-
-## Why Use Virtual Environments?
-
-- To avoid conflicts between project dependencies.
-- To maintain isolated environments for each project.
-- To manage different Python versions for different applications.
-
--->
-
-## Creating a Virtual Environment
-
-Use the `venv` module to create a virtual environment:
-
-```bash
-python -m venv myenv
-```
-
-This creates a directory called `myenv` with a local Python interpreter and installation paths.
-
-<!--
-
-## Activating the Virtual Environment
-
-#### On Windows:
-
-```bash
-myenv\Scripts\activate
-```
-
-#### On macOS/Linux:
-
-```bash
-source myenv/bin/activate
-```
-
-Once activated, your shell prompt will change, indicating you're inside the virtual environment.
-
--->
-
-## Installing Packages in Virtual Environment
-
-You can now install packages using `pip` without affecting the global Python setup:
-
-```bash
-pip install requests
-```
-
-<!--
-
-## Deactivating the Virtual Environment
-
-To deactivate and return to the global environment:
-
-```bash
-deactivate
-```
-
--->
-
-## Deleting a Virtual Environment
-
-Simply delete the virtual environment directory:
-
-```bash
-rm -r myenv  # or use File Explorer to delete on Windows
-```
-
-<!--
-
-## Summary
-
-- Virtual environments help manage project-specific dependencies.
-- Use `python -m venv <env_name>` to create one.
-- Activate using `source` (Linux/macOS) or `Scripts\activate` (Windows).
-- Install packages using `pip` as usual.
-- Deactivate using `deactivate`.
-
--->
-
-## 🧪 Practice Questions
-
-#### Q1. What is the command to create a virtual environment named `env`?
-
-```
-a) python create env  
-b) python -m venv env  
-c) pip venv install env  
-d) virtualenv env create
-```
-
-#### Q2. What does the `deactivate` command do?
-
-```
-a) Deletes the virtual environment  
-b) Uninstalls packages  
-c) Exits the virtual environment  
-d) Closes the terminal
-```
-
-
----
-
-
-UR BA N
-
----
-
-
-
 # Chapter 3 - Strings
 
 Strings are sequences of characters used to store and represent text in Python. They are one of the most commonly used data types.
@@ -1817,6 +1284,539 @@ c) using with open(...)
 d) open(file).read()
 ```
 
+
+---
+
+
+
+# Chapter 10 - Object Oriented Programming
+
+Object Oriented Programming (OOP) is a programming paradigm based on the concept of **objects**, which contain **data** and **methods**. Python supports OOP features such as classes, objects, inheritance, encapsulation, and polymorphism.
+
+<!--
+
+## Classes and Objects
+
+### Defining a Class
+
+```python
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def greet(self):
+        print(f"Hello, my name is {self.name} and I am {self.age} years old.")
+```
+
+### Creating Objects
+
+```python
+p1 = Person("Alice", 30)
+p1.greet()  # Output: Hello, my name is Alice and I am 30 years old.
+```
+
+-->
+
+## The `__init__` Method
+
+The `__init__` method is a special method that runs as soon as an object is created. It is commonly used to initialize object attributes.
+
+<!--
+
+## Instance Variables and Methods
+
+- **Instance variables** are specific to each object.
+- **Instance methods** operate on object data and can access instance variables using `self`.
+
+-->
+
+## Inheritance
+
+Inheritance allows one class to inherit the attributes and methods of another.
+
+```python
+class Animal:
+    def speak(self):
+        print("Animal speaks")
+
+class Dog(Animal):
+    def bark(self):
+        print("Dog barks")
+
+d = Dog()
+d.speak()  # Inherited method
+d.bark()   # Own method
+```
+
+<!--
+
+## Method Overriding
+
+Child classes can override parent class methods.
+
+```python
+class Animal:
+    def speak(self):
+        print("Animal speaks")
+
+class Cat(Animal):
+    def speak(self):
+        print("Cat meows")
+
+c = Cat()
+c.speak()  # Output: Cat meows
+```
+
+-->
+
+## Encapsulation
+
+Encapsulation restricts direct access to some of an object’s components.
+
+```python
+class BankAccount:
+    def __init__(self, balance):
+        self.__balance = balance
+
+    def get_balance(self):
+        return self.__balance
+```
+
+The double underscore `__` makes the variable private.
+
+<!--
+
+## Summary
+
+- OOP models real-world entities using classes and objects.
+- Key principles include **encapsulation**, **inheritance**, and **polymorphism**.
+- Use classes to organize code and promote reuse.
+
+-->
+
+## 🧪 Practice Questions
+
+#### Q1. What will be the output of the following code?
+
+```python
+class A:
+    def __init__(self):
+        print("A")
+
+class B(A):
+    def __init__(self):
+        super().__init__()
+        print("B")
+
+b = B()
+```
+
+```
+a) A  
+b) B  
+c) A B  
+d) B A
+```
+
+#### Q2. Which of the following best defines encapsulation in OOP?
+
+```
+a) Grouping functions together  
+b) Hiding data and providing access through methods  
+c) Creating functions outside of class  
+d) Overriding methods in subclasses
+```
+
+
+---
+
+
+
+# Chapter 11 - Inheritance
+
+Inheritance is one of the core principles of Object Oriented Programming (OOP). It allows one class (child or derived class) to inherit attributes and methods from another class (parent or base class), promoting code reusability.
+
+<!--
+
+## Basic Inheritance
+
+### Example
+
+```python
+class Animal:
+    def speak(self):
+        print("Animal speaks")
+
+class Dog(Animal):
+    def bark(self):
+        print("Dog barks")
+
+d = Dog()
+d.speak()  # Inherited from Animal
+d.bark()   # Defined in Dog
+```
+
+-->
+
+## The `super()` Function
+
+The `super()` function allows access to methods from the parent class.
+
+```python
+class Animal:
+    def __init__(self, name):
+        self.name = name
+
+    def speak(self):
+        print(f"{self.name} makes a sound")
+
+class Cat(Animal):
+    def __init__(self, name):
+        super().__init__(name)
+
+    def speak(self):
+        print(f"{self.name} meows")
+
+c = Cat("Whiskers")
+c.speak()  # Output: Whiskers meows
+```
+
+<!--
+
+## Method Overriding
+
+Child classes can override methods of the parent class by defining a method with the same name.
+
+-->
+
+## Multi-Level Inheritance
+
+Inheritance can go more than one level deep.
+
+```python
+class A:
+    def show(self):
+        print("Class A")
+
+class B(A):
+    pass
+
+class C(B):
+    pass
+
+obj = C()
+obj.show()  # Output: Class A
+```
+
+<!--
+
+## Multiple Inheritance
+
+A class can inherit from multiple classes.
+
+```python
+class Father:
+    def skills(self):
+        print("Gardening, Programming")
+
+class Mother:
+    def skills(self):
+        print("Cooking")
+
+class Child(Father, Mother):
+    def skills(self):
+        super().skills()
+        print("Drawing")
+
+c = Child()
+c.skills()
+```
+
+-->
+
+## Summary
+
+- **Inheritance** allows one class to reuse code from another.
+- Use `super()` to access methods from a parent class.
+- Supports **single**, **multi-level**, and **multiple** inheritance.
+- Enables method overriding for customized behavior.
+
+<!--
+
+## 🧪 Practice Questions
+
+#### Q1. What is the output of the following code?
+
+```python
+class Parent:
+    def show(self):
+        print("Parent")
+
+class Child(Parent):
+    def show(self):
+        print("Child")
+
+c = Child()
+c.show()
+```
+
+```
+a) Parent  
+b) Child  
+c) Parent Child  
+d) Error
+```
+
+#### Q2. Which of the following statements is TRUE about `super()`?
+
+```
+a) It creates a new class  
+b) It initializes private variables  
+c) It accesses methods from the base class  
+d) It returns the child object
+```
+
+
+---
+
+
+
+# Chapter 12 - Exception Handling in Python
+
+In Python, exceptions are errors that occur during the execution of a program. Exception handling allows you to manage these errors gracefully without crashing the program.
+
+<!--
+
+## What is an Exception?
+
+An exception is an unwanted event that can occur during program execution, such as dividing by zero or accessing a file that doesn't exist.
+
+-->
+
+## The `try-except` Block
+
+The most common way to handle exceptions is using the `try-except` block.
+
+```python
+try:
+    x = 10 / 0
+except ZeroDivisionError:
+    print("Cannot divide by zero!")
+```
+
+<!--
+
+## Catching Multiple Exceptions
+
+You can handle multiple types of exceptions.
+
+```python
+try:
+    num = int(input("Enter a number: "))
+    result = 10 / num
+except ValueError:
+    print("Invalid input. Please enter a number.")
+except ZeroDivisionError:
+    print("Cannot divide by zero.")
+```
+
+-->
+
+## The `else` Block
+
+The `else` block runs if no exceptions occur.
+
+```python
+try:
+    x = 5
+    y = 2
+    result = x / y
+except ZeroDivisionError:
+    print("Error: Division by zero")
+else:
+    print("Result is", result)
+```
+
+<!--
+
+## The `finally` Block
+
+The `finally` block always runs, regardless of whether an exception occurred or not.
+
+```python
+try:
+    file = open("test.txt", "r")
+except FileNotFoundError:
+    print("File not found")
+finally:
+    print("Execution complete")
+```
+
+-->
+
+## Raising Exceptions
+
+You can raise exceptions manually using `raise`.
+
+```python
+age = -1
+if age < 0:
+    raise ValueError("Age cannot be negative")
+```
+
+<!--
+
+## Summary
+
+- Exceptions are runtime errors.
+- Use `try-except` to catch and handle exceptions.
+- `else` runs if no exception occurs; `finally` always runs.
+- `raise` is used to manually throw an exception.
+
+-->
+
+## 🧪 Practice Questions
+
+#### Q1. What is the output of this code?
+
+```python
+try:
+    print(1 / 0)
+except ZeroDivisionError:
+    print("Caught ZeroDivisionError")
+```
+
+```
+a) 0  
+b) 1  
+c) Caught ZeroDivisionError  
+d) Error
+```
+
+#### Q2. What does the `finally` block do in exception handling?
+
+```
+a) Runs only if an exception is raised  
+b) Runs only if no exception is raised  
+c) Always runs regardless of exceptions  
+d) Prevents errors from occurring
+```
+
+
+---
+
+
+
+# Chapter 13 - Virtual Environment
+
+A **virtual environment** in Python is a self-contained directory that contains a Python installation for a particular version, plus a number of additional packages. It helps to keep dependencies required by different projects separate.
+
+<!--
+
+## Why Use Virtual Environments?
+
+- To avoid conflicts between project dependencies.
+- To maintain isolated environments for each project.
+- To manage different Python versions for different applications.
+
+-->
+
+## Creating a Virtual Environment
+
+Use the `venv` module to create a virtual environment:
+
+```bash
+python -m venv myenv
+```
+
+This creates a directory called `myenv` with a local Python interpreter and installation paths.
+
+<!--
+
+## Activating the Virtual Environment
+
+#### On Windows:
+
+```bash
+myenv\Scripts\activate
+```
+
+#### On macOS/Linux:
+
+```bash
+source myenv/bin/activate
+```
+
+Once activated, your shell prompt will change, indicating you're inside the virtual environment.
+
+-->
+
+## Installing Packages in Virtual Environment
+
+You can now install packages using `pip` without affecting the global Python setup:
+
+```bash
+pip install requests
+```
+
+<!--
+
+## Deactivating the Virtual Environment
+
+To deactivate and return to the global environment:
+
+```bash
+deactivate
+```
+
+-->
+
+## Deleting a Virtual Environment
+
+Simply delete the virtual environment directory:
+
+```bash
+rm -r myenv  # or use File Explorer to delete on Windows
+```
+
+<!--
+
+## Summary
+
+- Virtual environments help manage project-specific dependencies.
+- Use `python -m venv <env_name>` to create one.
+- Activate using `source` (Linux/macOS) or `Scripts\activate` (Windows).
+- Install packages using `pip` as usual.
+- Deactivate using `deactivate`.
+
+-->
+
+## 🧪 Practice Questions
+
+#### Q1. What is the command to create a virtual environment named `env`?
+
+```
+a) python create env  
+b) python -m venv env  
+c) pip venv install env  
+d) virtualenv env create
+```
+
+#### Q2. What does the `deactivate` command do?
+
+```
+a) Deletes the virtual environment  
+b) Uninstalls packages  
+c) Exits the virtual environment  
+d) Closes the terminal
+```
+
+
+---
+
+
+UR BA N
 
 ---
 
