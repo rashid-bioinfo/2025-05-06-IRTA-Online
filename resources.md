@@ -4,6 +4,12 @@ title: "Python Notes"
 permalink: /resources/
 ---
 
+## Presenter  
+
+**Rashid Hussain, PhD**  
+Bioinformatician, Ayass Bioscience, USA  
+Web: [rashid-bioinfo.github.io](https://rashid-bioinfo.github.io)
+
 
 # Introduction
 
