@@ -1,6 +1,6 @@
 
 # Case Study  
-## Genome Assembly Evaluation in Google Colab
+## Genome Assembly Evaluation with python
 
 ---
 
