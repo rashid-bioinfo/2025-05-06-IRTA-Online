@@ -5,7 +5,7 @@ This workshop introduced essential tools and skills for navigating modern resear
 
 ---
 
-## 🖥️ 1. Linux Shell and Command Line Basics
+## 🖥️ 1. Unix Shell and Command Line Basics
 
 Participants learned to:
 - Navigate files and directories using commands like `cd`, `ls`, `pwd`
