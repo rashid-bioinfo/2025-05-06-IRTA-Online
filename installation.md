@@ -3,7 +3,8 @@ layout: page
 title: "Installation Instructions"
 permalink: /installation/
 ---
-## Instructor
+
+## Contributor
 
 **Khaoula Ferchichi, Bioinformatician**  
 Scientist, HPC@HRZ University of Bonn
