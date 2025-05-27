@@ -7,8 +7,8 @@ permalink: /installation/
 ## Contributor
 
 **Khaoula Ferchichi, Bioinformatician**  
-Scientist, HPC@HRZ University of Bonn
-Postdoctoral researcher, University hospital Bonn, Section Psychiatric Genomics and Epigenomics
+Scientist, HPC@HRZ University of Bonn.
+Postdoctoral researcher, University hospital Bonn, Section Psychiatric Genomics and Epigenomics.
 
 # 🧰 Installing Git, Anaconda, and Python on Windows via Git Bash
 
